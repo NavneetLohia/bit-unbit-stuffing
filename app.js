@@ -20,7 +20,7 @@ function bitStuffing(bin_string) {
       }
   }
   stuff_answer.innerText = ans
-  bitUnstuffing(ans)
+  bitUnstuffing(bin_string)
 }
 
 function bitUnstuffing(bin_string) {
